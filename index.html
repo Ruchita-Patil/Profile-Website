@@ -1,19 +1,94 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ruchita Patil</title>
     <link href="profile.png" rel="icon" />
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+  
+    <link rel="stylesheet" type="text/css" href=
+"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        .navbar-nav.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+    </style>
+    
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
     <center>
         <h1 style="background-color:rgb(246, 82, 219);">RUCHITA PATIL</h1>
         <img src="Images/ruchi.JPG" alt="Ruchi" title="Ruchita Patil" height="320px" width="300px">
     </center>
     <hr>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" 
+                 id="navbarSupportedContent">
+                <ul class=" nav navbar-nav navbar-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" 
+                           href="#About Me">
+                          About Me 
+                          <span class="sr-only">
+                            (current)
+                          </span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                           href="#Skills">
+                          Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                           href="#Hobbies">
+                           Hobbies
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                           href="#Location">
+                           Location
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                           href="#Contact">
+                           Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <hr>
     <div>
         <center>
-        <h2> About Me </h2>
+        <h2 id = "About Me"> About Me </h2>
         <p>I am Ruchita Patil from Mumbai, Maharashtra. I have completed my post graduation in Msc I.T from University
             of Mumbai with CGPI (8.00/10) from Ramnarain Ruia College in March 2022. I have 15 months of experience as a SQL Database
             Administrator (DBA). I want to switch my career for better growth. I want to be a Full Stack Developer.
@@ -23,7 +98,7 @@
     <hr>
     <div>
         <center>
-            <h2> Skills </h2>
+            <h2 id = "Skills"> Skills </h2>
             <img src="Images/html.png" alt="HTML" title="HTML" height="100px" width="100px">
             <img src="Images/css1.png" alt="CSS" title="CSS" height="100px" width="100px">
             <img src="Images/javascript.jpg" alt="Javascript" title="Javascript" height="100px" width="100px">
@@ -32,7 +107,7 @@
     <hr>
     <div>
         <center>
-            <h2> Hobbies</h2>
+            <h2 id = "Hobbies"> Hobbies</h2>
             <img src="Images/dance1.jpg" alt="Dance" title="Dancing" height="120px" width="120px">
             <img src="Images/Reading.jpg" alt="Reading" title="Reading" height="120px" width="120px">
             <img src="Images/Badminton.jpg" alt="Badminton" title="Badminton" height="120px" width="120px">
@@ -41,7 +116,7 @@
     <hr>
     <div>
         <center>
-            <h2> Location </h2>
+            <h2 id = "Location"> Location </h2>
         </center>
     </div>
 
@@ -52,7 +127,7 @@
     <hr>
     <footer>
         <center>
-            <h3>Follow us on our social accounts</h3>
+            <h3 id = "Contact">Follow us on our social accounts</h3>
             <a href="https://www.linkedin.com/in/ruchita-patil-098b01193/" target="_blank"><img src="Images/linkendin.png"
                     alt="Linkedin" title="Linkedin" width="50" height="50"></a>
             <a href="https://github.com/Ruchi0729" target="_blank"><img src="Images/github.png" alt="Github" title="Github"
@@ -60,10 +135,13 @@
             <a href="https://github.com/Ruchi0729" target="_blank"><img src="Images/youtube.png" alt="Youtube" title="Youtube"
                     width="50" height="50"></a>
         </center>
+      <br>
+        <div class = "container-fluid">
         <div style="color:rgb(246, 242, 241);">
             <center>
-                <p style="background-color:rgb(67, 145, 80);"> &copy; Ruchita Patil 2023</a></p>
+                <p style="background-color:rgb(67, 145, 80);" > &copy; Ruchita Patil 2023</a></p>
             </center>
+        </div>
         </div>
         <footer>
 
